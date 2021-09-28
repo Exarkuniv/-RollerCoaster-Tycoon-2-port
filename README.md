@@ -4,7 +4,7 @@
 
 To install 
 
-`wget https://raw.githubusercontent.com/Exarkuniv/-RollerCoaster-Tycoon-2-port/edit/Master/openrct.sh -P $HOME/RetroPie-Setup/scriptmodules/ports/`
+`wget https://raw.githubusercontent.com/Exarkuniv/-RollerCoaster-Tycoon-2-portMaster/openrct.sh -P $HOME/RetroPie-Setup/scriptmodules/ports/`
 
 
 Pulled from OpenRCT2 wiki here https://github.com/OpenRCT2/OpenRCT2
