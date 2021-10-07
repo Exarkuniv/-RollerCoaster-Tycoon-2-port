@@ -44,8 +44,8 @@ function build_openrct() {
 
     mkdir $md_build/OpenRCT2/build
     cd $md_build/OpenRCT2/build
-    cmake . -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-Ofast -DNDEBUG -mcpu=cortex-a72"
-    #cmake ../ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-Ofast -DNDEBUG -mcpu=cortex-a72"
+    
+    cmake ../ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-Ofast -DNDEBUG -mcpu=cortex-a72"
 	
     make -j4
 
